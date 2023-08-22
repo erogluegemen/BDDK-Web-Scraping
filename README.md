@@ -2,7 +2,6 @@
 - Collecting BDDK(Banking Regulation and Supervision Agency) data from the official website(https://www.bddk.org.tr/).
 - The code scheduled with Windows Task Scheduler to run every 7 days.
 - *.py* file for pulling the Excel file from the website. (Automation)
-- *.ipynb* notebook for pulling the whole table from the website. (Scraping)
 
 ## How you can set up a cron job to run your code every 7 days on a Unix-like system:
 1. Open a terminal.
