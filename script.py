@@ -803,7 +803,8 @@ def reformat_report_data(final_df:pd.DataFrame) -> pd.DataFrame:
   final_df['METRIK_IZLM_DEGER'] = final_df['METRIK_DEGER']
 
   # İş Akış No kolonunun değeri sabit 26 olarak belirlenir.
-  final_df['IS_AKIS_NO'] = 26
+  const_akis_no = 26
+  final_df['IS_AKIS_NO'] = const_akis_no
 
   # T - Y - P değerlerinin sayısı sabit 937 olarak belirlenir.
   values_count = 937
